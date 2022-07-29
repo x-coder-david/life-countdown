@@ -1,0 +1,32 @@
+#liveDay,
+#leftDate {
+  font-size: 28px;
+  color: red;
+}
+#age {
+  font-size: 22px;
+  color: blue;
+}
+.life-time {
+  width: 800px;
+  height: 600px;
+  /* background-image: url(./images/timeleave.jpeg); */
+  background-color: orange;
+  font-weight: 600;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  position: relative;
+}
+#endTime {
+  color: gray;
+  font-size: 36px;
+}
+.text {
+  position: relative;
+  top: 10%;
+}

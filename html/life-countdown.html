@@ -1,0 +1,50 @@
+<!--
+ * @Author: writeluckycode 10820973+writeluckycode@user.noreply.gitee.com
+ * @Date: 2022-05-31 16:50:07
+ * @LastEditors: writeluckycode 10820973+writeluckycode@user.noreply.gitee.com
+ * @LastEditTime: 2022-07-29 11:28:46
+ * @FilePath: /countdown to life/life-countdown.html
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>life countdown</title>
+    <link rel="stylesheet" href="../css/life-countdown.css" />
+  </head>
+  <body>
+    <div class="life-time">
+      <div class="text">
+        <h1>life countdown</h1>
+
+        <span>date of birth：</span>
+        <!-- <input type="datetime-local" id="birthday" /> -->
+        <input type="text" id="birthday" placeholder="For example:1949-10-1" />
+
+        <button id="btn1">query elapsed time</button>
+        <p>
+          <span id="age"></span>You have lived on earth so far<span
+            id="liveDay"
+          ></span>
+        </p>
+        <p>
+          expected survival time：<span>
+            <input type="number" class="leftTime" />years
+            <button id="btn2">Calculate the remaining time of your life</button>
+          </span>
+        </p>
+        <p>time left:<span id="leftDate"></span></p>
+        <p>estimated time of death:<span id="endTime"></span></p>
+      </div>
+      <br /><br />
+      <script src="../js/life-countdown-EN.js"></script>
+      <h2 style="color: orangered">
+        There may not be as much time left as you think <br />
+        Cherish time and enjoy life!
+      </h2>
+    </div>
+  </body>
+</html>

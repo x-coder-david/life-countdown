@@ -1,0 +1,50 @@
+<!--
+ * @Author: writeluckycode 10820973+writeluckycode@user.noreply.gitee.com
+ * @Date: 2022-07-29 07:59:51
+ * @LastEditors: writeluckycode 10820973+writeluckycode@user.noreply.gitee.com
+ * @LastEditTime: 2022-07-29 11:28:23
+ * @FilePath: /countdown to life/人生倒计时.html
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>人生计时器</title>
+    <link rel="stylesheet" href="../css/life-countdown.css" />
+  </head>
+  <body>
+    <div class="life-time">
+      <div class="text">
+        <h1>人生计时器</h1>
+
+        <span>出生日期：</span>
+        <!-- <input type="datetime-local" id="birthday" /> -->
+        <input type="text" id="birthday" placeholder="例如:1949-10-1" />
+
+        <button id="btn1">查询存活时间</button>
+        <p>
+          <span id="age"></span>迄今为止，你已经在地球上存活了<span
+            id="liveDay"
+          ></span>
+        </p>
+        <p>
+          预计存活时长：<span>
+            <input type="number" class="leftTime" />年
+            <button id="btn2">时间余额查询</button>
+          </span>
+        </p>
+        <p>你的人生余额还有：<span id="leftDate"></span></p>
+        <p>预估向地球告别时间为：<span id="endTime"></span></p>
+
+        <script src="../js/life-countdown-ZH.js"></script>
+      </div>
+      <br /><br />
+      <h2 style="color: orangered">
+        剩下的时间可能没你想的那么多，愿你珍惜时光，享受生活
+      </h2>
+    </div>
+  </body>
+</html>
